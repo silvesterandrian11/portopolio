@@ -1,0 +1,132 @@
+* {
+    font-family: 'Inter';
+    box-sizing: border-box;
+    color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    background-color: #f0e7cc;
+}
+
+.favicon {
+    margin-left: -70px;
+}
+
+nav {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+.nav:hover {
+    border: 5px inset #c48b7a;
+}
+
+.logo img{
+    width: 45px;
+    margin: 10px 5px;
+    transition: 0.3s;
+}
+
+.logo img:hover {
+    border: 8px inset #c48b7a;
+    width: 60px;
+}
+
+.logo{
+    margin-left: 10%;
+    margin-top: 8.7%;
+}
+
+section {
+    position: absolute;
+    left: 30vh;
+    top: 30vh;
+}
+
+.profesi{
+    margin-top: 25px;
+}
+
+.nama {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+span {
+    font-weight: 500px;
+    color: #c46411;
+}
+
+p {
+    font-size: 20px;
+}
+
+hr {
+    border-top: 2px solid black;
+}
+
+.images {
+    width: 20%;
+    position: absolute;
+    top: 30vh;
+    right: 150px;
+}
+
+.images img {
+    top: 100px;
+    position: absolute;
+    right: 100px;
+    transform: translateY(-50%);
+    transition: bottom 1s, left;
+}
+
+.foto {
+    width: 300px;
+    position: absolute;
+    left: -14vh;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .foto {
+    left: 45%
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    padding-left: 20px;
+    bottom: 0;
+}
+
+footer p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: medium;
+}
